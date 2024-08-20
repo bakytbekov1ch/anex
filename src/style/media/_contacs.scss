@@ -1,0 +1,24 @@
+@media (max-width: 1024px) {
+  .contac {
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .contac {
+    .container {
+      max-width: 360px;
+      margin: 0 auto;
+      .contac__content {
+        flex-direction: column;
+
+        .contac__line {
+          transform: rotate(90deg) !important;
+        }
+      }
+    }
+  }
+}

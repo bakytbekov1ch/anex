@@ -1,0 +1,30 @@
+@media (max-width: 1024px) {
+  .hover {
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .hover {
+    .container {
+      max-width: 360px;
+      margin: 0 auto;
+      width: 100%;
+      .hover__content {
+        .hover__block {
+          flex-direction: column;
+          .hover__btn {
+            width: 100%;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -7,16 +7,23 @@ import line from "../../assets/svg/line.svg";
 import menu from "../../assets/svg/menu.svg";
 
 import "./Header.scss";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <div className="header">
       <div className="container">
         <div className="header__content">
-          <img className="header__logo" src={logo} alt="" />
+          <Link to="/">
+            <img className="header__logo" src={logo} alt="" />
+          </Link>
           <ul>
-            <li>Подбор тура</li>
-            <li>Горящие туры</li>
+            <Link to="/about">
+              <li>Подбор тура</li>
+            </Link>
+            <Link to="/main">
+              <li>Горящие туры</li>
+            </Link>
             <li>Страны</li>
             <li>отели</li>
           </ul>
@@ -27,7 +34,9 @@ function Header() {
               <img src={mesto} alt="" />
             </div>
             <img src={line} alt="" />
-            <img className="header__menu" src={menu} alt="" />
+            <Link to="/menu">
+              <img className="header__menu" src={menu} alt="" />
+            </Link>
           </div>
         </div>
       </div>

@@ -1,0 +1,280 @@
+.product {
+  margin: 30px 0;
+  .product__title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    h5 {
+      height: 80px;
+      color: rgb(161, 161, 161);
+      font-family: "Roboto";
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 16px;
+      cursor: pointer;
+    }
+  }
+
+  .product__content {
+    .product__ml {
+      display: flex;
+      align-items: end;
+      gap: 10px;
+
+      h1 {
+        color: rgb(28, 28, 28);
+        font-family: "Roboto";
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 52px;
+      }
+
+      span {
+        height: 25px;
+        color: rgb(28, 28, 28);
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 19px;
+      }
+    }
+
+    .product__block {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .product__sort {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        h4 {
+          color: rgb(28, 28, 28);
+          font-family: "Roboto";
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 19px;
+
+          span {
+            opacity: 0.8;
+          }
+        }
+      }
+
+      .product__img {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+    }
+
+    .product__api {
+      margin-top: 20px;
+      .product__xl {
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        padding-right: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.518);
+        border-radius: 30px;
+
+        img {
+          width: 384px;
+          height: 280px;
+          border-radius: 30px 0 0 30px;
+        }
+
+        .product__a1 {
+          .prodcut__a2 {
+            h2 {
+              height: 23px;
+              color: rgb(28, 28, 28);
+              font-family: "Roboto";
+              font-size: 16px;
+              font-weight: 300;
+              line-height: 19px;
+            }
+
+            h1 {
+              height: 25px;
+              color: rgb(28, 28, 28);
+              font-family: "Roboto";
+              font-size: 20px;
+              font-weight: 600;
+              line-height: 23px;
+            }
+
+            img {
+              margin-bottom: 20px;
+              width: 114px;
+              height: 18px;
+            }
+
+            .product__a3 {
+              display: flex;
+              align-items: center;
+              gap: 5px;
+
+              span {
+                width: 40px;
+                height: 24px;
+                border-radius: 30px;
+                background: rgb(70, 57, 152);
+
+                color: rgb(255, 255, 255);
+                font-family: "Roboto";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+
+              h3 {
+                color: rgb(28, 28, 28);
+                font-family: "Roboto";
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 16px;
+              }
+            }
+          }
+
+          .prodcut__a3 {
+            width: 470px;
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+
+            .product__s1 {
+              .product__menu {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+
+                img {
+                  width: 22px;
+                  height: 22px;
+                }
+
+                h3 {
+                  color: rgb(28, 28, 28);
+                  font-family: "Roboto";
+                  font-size: 14px;
+                  font-weight: 300;
+                  line-height: 26px;
+                }
+              }
+            }
+
+            .product__s2 {
+              .product__frame {
+                width: 200px;
+                display: flex;
+                align-items: start;
+                gap: 5px;
+
+                img {
+                  width: 15.78px;
+                  height: 14.47px;
+                }
+
+                h3 {
+                  color: rgb(28, 28, 28);
+                  font-family: "Roboto";
+                  font-size: 14px;
+                  font-weight: 300;
+                  line-height: 25px;
+                }
+              }
+            }
+          }
+        }
+
+        .product__hr {
+          height: 236px;
+          border: 1px solid rgb(212, 212, 212);
+        }
+
+        .product__hore {
+          button {
+            width: 102px;
+            height: 24px;
+            box-sizing: border-box;
+            border: 1px solid rgb(212, 212, 212);
+            border-radius: 30px;
+            background: none;
+            cursor: pointer;
+
+            color: rgb(88, 88, 88);
+            font-family: "Roboto";
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 16px;
+
+            position: absolute;
+            top: 20px;
+            right: 20px;
+          }
+
+          .product__vl {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            h1 {
+              margin-top: 100px;
+              color: rgb(28, 28, 28);
+              font-family: "Roboto";
+              font-size: 24px;
+              font-weight: 600;
+              line-height: 28px;
+            }
+
+            h2 {
+              margin-top: 100px;
+              color: rgb(28, 28, 28);
+              font-family: "Roboto";
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 16px;
+            }
+          }
+
+          .product__button {
+            width: 168px;
+            height: 40px;
+            border-radius: 30px;
+            background: rgb(236, 28, 36);
+
+            color: rgb(255, 255, 255);
+            font-family: "Roboto";
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            top: 13.3pc;
+            right: 10px;
+
+            img {
+              width: 11px;
+              height: 11px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

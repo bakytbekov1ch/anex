@@ -1,0 +1,28 @@
+@media (max-width: 1024px) {
+  .images {
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .images {
+    .container {
+      max-width: 360px;
+      margin: 0 auto;
+      width: 100%;
+      .images__content {
+        h1 {
+          text-align: center;
+        }
+
+        h3 {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

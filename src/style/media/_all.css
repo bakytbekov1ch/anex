@@ -1,3 +1,12 @@
 @import url("./_header.scss");
-
+@import url("./_sectionone.scss");
+@import url("./_images.scss");
+@import url("./_hover.scss");
+@import url("./_apple.scss");
+@import url("./_delivery.scss");
+@import url("./_news.scss");
+@import url("./_aboutx.scss");
+@import url("./_contacs.scss");
+@import url("./_menu.scss");
+@import url("./_footerx.scss");
 @import url("./_footer.scss");

@@ -26,7 +26,7 @@ function Contacts() {
               <img src={vk} alt="" />
             </div>
           </div>
-          <img src={line} alt="" />
+          <img className="contac__line" src={line} alt="" />
           <div className="contac__ml">
             <h1>КОНТАКТЫ</h1>
             <h2>
@@ -34,7 +34,7 @@ function Contacts() {
             </h2>
             <h3>anextourchertanovo@gmail.com</h3>
           </div>
-          <img src={line} alt="" />
+          <img className="contac__line" src={line} alt="" />
           <div className="contac__xl">
             <h1>АДРЕС</h1>
             <p>

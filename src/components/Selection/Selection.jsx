@@ -1,17 +1,17 @@
 import React from "react";
 
-import line from "../../assets/svg/line.svg";
 import vector from "../../assets/svg/vector.svg";
+import line from "../../assets/svg/line.svg";
 
-import "./SectionOne.scss";
+import "./Selection.scss";
 
-function SectionOne() {
+function Selection() {
   return (
-    <div className="sectionone">
+    <div className="selection">
       <div className="container">
         <div className="sectionone__content">
-          <h1>путешествия мечты</h1>
-          <h4>выбери свою</h4>
+          <h1>подбор тура</h1>
+          <h4>Идеальное путешествие начинается здесь</h4>
           <div className="section__btn">
             <div className="sectionone__block">
               <div className="sectionone__mx">
@@ -20,25 +20,22 @@ function SectionOne() {
               </div>
               <img src={line} alt="" />
               <div className="sectionone__mx">
-                <input type="text" placeholder="Куда" />
+                <h2>Куда</h2>
               </div>
               <img src={line} alt="" />
               <div className="sectionone__mx">
-                <input type="text" placeholder="вылет" />
+                <h2>вылет</h2>
               </div>
               <img src={line} alt="" />
-              <div className="jjj">
-                <div className="sectionone__mx">
-                  <h6>На сколько</h6>
-                  <h3>9 - 12 ночей</h3>
-                </div>
-                <img src={line} alt="" />
-                <div className="sectionone__mx">
-                  <h6>Туристы</h6>
-                  <h3>2 + 0</h3>
-                </div>
+              <div className="sectionone__mx">
+                <h6>На сколько</h6>
+                <h3>9 - 12 ночей</h3>
               </div>
-
+              <img src={line} alt="" />
+              <div className="sectionone__mx">
+                <h6>Туристы</h6>
+                <h3>2 + 0</h3>
+              </div>
               <button>
                 подобрать <img src={vector} alt="" />
               </button>
@@ -50,4 +47,4 @@ function SectionOne() {
   );
 }
 
-export default SectionOne;
+export default Selection;
