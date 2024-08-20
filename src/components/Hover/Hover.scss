@@ -1,0 +1,96 @@
+.hover {
+  margin: 30px 0;
+  .hover__content {
+    .hover__img {
+      display: flex;
+      justify-content: center;
+
+      img {
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    h1 {
+      color: rgb(28, 28, 28);
+      font-family: "Roboto";
+      font-size: 44px;
+      font-weight: 500;
+      line-height: 52px;
+      text-align: center;
+    }
+
+    p {
+      height: 70px;
+      color: rgb(28, 28, 28);
+      font-family: "Roboto";
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 28px;
+      text-align: center;
+    }
+
+    .hover__block {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      overflow-y: hidden;
+
+      .hover__btn {
+        width: 430px;
+        height: 300px;
+        border-radius: 30px;
+        background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 67.941%,
+          rgba(0, 0, 0, 0.45) 100%
+        );
+        position: relative;
+
+        img {
+          width: 430px;
+          height: 300px;
+          border-radius: 30px;
+        }
+
+        h2 {
+          color: rgb(255, 255, 255);
+          font-family: "Roboto";
+          font-size: 28px;
+          font-weight: 500;
+          line-height: 33px;
+          position: absolute;
+          bottom: 30px;
+          left: 25px;
+        }
+
+        h3 {
+          color: rgb(255, 255, 255);
+          font-family: "Roboto";
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 16px;
+          position: absolute;
+          bottom: 15px;
+          left: 25px;
+        }
+
+        h4 {
+          color: rgb(255, 255, 255);
+          font-family: "Roboto";
+          font-size: 65px;
+          font-weight: 400;
+          line-height: 65px;
+          position: absolute;
+          right: 35px;
+          top: 20px;
+        }
+      }
+
+      .hover__btn > img:hover {
+        width: 450px;
+        height: 320px;
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.footerx {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  background: url("../../assets/images/group.png") center/cover;
+
+  .apple__content {
+    width: 1120px;
+    height: 133px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    h1 {
+      width: 236px;
+      color: rgb(28, 28, 28);
+      font-family: "Roboto";
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 28px;
+    }
+
+    p {
+      width: 208px;
+      color: rgb(28, 28, 28);
+      font-family: "Roboto";
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 19px;
+    }
+
+    .apple__inputs {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      input {
+        color: rgb(189, 189, 189);
+        font-family: "Roboto";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+
+        width: 144px;
+        outline: none;
+        background: none;
+        border-bottom: 1px solid black;
+      }
+    }
+
+    button {
+      width: 168px;
+      height: 40px;
+      border-radius: 30px;
+      background: rgb(236, 28, 36);
+
+      color: rgb(255, 255, 255);
+      font-family: "Roboto";
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      gap: 10px;
+    }
+  }
+}

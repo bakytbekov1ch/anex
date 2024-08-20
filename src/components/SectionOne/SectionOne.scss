@@ -1,0 +1,93 @@
+.sectionone {
+  width: 100%;
+  height: 800px;
+  background: url("https://s3-alpha-sig.figma.com/img/b0d4/1952/124a74bbca24205521066a50b7c75b5a?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pSB0sX4rafwvq~PL-6RkCJDprfDBusYeBzFXD5J7EXyN0Rf9WDZfwK-DMtbT92li7xJh2NpXUCFZFK2jDMQGmyUDg0SAdJPC0KcjvStyhhq8AnSJy0cTk2pXU2vidPcYTXaANPb0Gbe1Wfm14YimYAAdNSp-34oULZU~GITz0AGayoQQwuRiz7R-2nEbFqyRXje7mV0CEkDTgWt0LpsmsBzzecwMyJGO7D2wPEM8M2D4fg1NERLqkNJnGitjPIFomQ-CTvjjIKkQB-2zIMMnmDr0D5V3PM6jgl-tdP5kOJ0fGb6S5gm87lOApIPwpm7~cMBSkRdV~tv9BICLpZzL2w__")
+    center/cover;
+
+  display: flex;
+  align-items: center;
+
+  .sectionone__content {
+    h1 {
+      height: 240px;
+      color: rgb(255, 255, 255);
+      font-family: "Roboto";
+      font-size: 128px;
+      font-weight: 500;
+      line-height: 95px;
+      text-align: center;
+    }
+
+    h4 {
+      height: 160px;
+      color: rgb(255, 255, 255);
+      font-family: "Roboto";
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 33px;
+      text-align: center;
+    }
+
+    .section__btn {
+      display: flex;
+      justify-content: center;
+      .sectionone__block {
+        margin-bottom: 40px;
+        width: 928px;
+        height: 64px;
+        border-radius: 30px;
+        background: rgb(255, 255, 255);
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+
+        .sectionone__mx {
+          h6 {
+            color: rgb(161, 161, 161);
+            font-family: "Roboto";
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+          }
+
+          h3 {
+            color: rgb(28, 28, 28);
+            font-family: "Roboto";
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19px;
+          }
+
+          h2 {
+            color: rgb(161, 161, 161);
+            font-family: "Roboto";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+          }
+        }
+
+        button {
+          width: 168px;
+          height: 40px;
+          border-radius: 30px;
+          background: rgb(236, 28, 36);
+
+          color: rgb(255, 255, 255);
+          font-family: "Roboto";
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 19px;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          gap: 15px;
+        }
+      }
+    }
+  }
+}

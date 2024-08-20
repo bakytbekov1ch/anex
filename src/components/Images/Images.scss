@@ -1,0 +1,44 @@
+.images {
+  margin: 20px 0;
+  .images__content {
+    h1 {
+      color: rgb(28, 28, 28);
+      font-family: "Roboto";
+      font-size: 44px;
+      font-weight: 500;
+      line-height: 52px;
+    }
+
+    h3 {
+      height: 80px;
+      color: rgb(28, 28, 28);
+      font-family: "Roboto";
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 28px;
+    }
+
+    .images__block {
+      width: 100%;
+      overflow-y: hidden;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      img {
+        width: 256px;
+        height: 340px;
+        border-radius: 30px;
+        background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 67.941%,
+          rgba(0, 0, 0, 0.45) 100%
+        );
+      }
+    }
+
+    .images__block::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+}

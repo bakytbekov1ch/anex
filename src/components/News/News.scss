@@ -1,0 +1,26 @@
+.news {
+  height: 750px;
+  background: #f8f8f8;
+  h1 {
+    color: rgb(28, 28, 28);
+    font-family: "Roboto";
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 52px;
+  }
+
+  h2 {
+    height: 70px;
+    color: rgb(28, 28, 28);
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+  }
+
+  .news__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+}
